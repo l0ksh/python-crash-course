@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# actual guest list
+# Guest list
 guest_list = ['Aman','Jack','Elon']
 
 print(f'This is my guest list: {guest_list}')
@@ -13,6 +13,7 @@ Hello {guest_list[2]}, You are invited to a dinner party at my home on Friday.
 
 print(message)
 
+# Changing Guest list
 # removing 'Jack' from the list
 not_coming = guest_list.pop(1)
 not_coming_message =  f'Hey all, I\'m so sorry to have to tell you this, but {not_coming} won\'t be able to make it to the party tonight.'
@@ -26,8 +27,11 @@ Hello {guest_list[1]}, You are invited to a dinner party at my home on Friday.
 print('\n-------------------------------------------------')
 print(new_message)
 
-# Found a bigger dinner table.
-# Now invite more people and change the list accordingly.
+'''
+More Guests
+Found a bigger dinner table.Now invite more people and change the list accordingly.
+'''
+
 print('Hello all, I am glad to tell you that I got a bigger table now. So I am inviting more members.\n')
 
 # updating guest_list
@@ -69,7 +73,7 @@ Hello {guest_list[1]}, You are invited to a dinner party at my home on Friday.
 
 print(updated_message)
 
-# removing all the items from the list so that it becomes empty
+# removing all the items from the list so that the list becomes empty
 
 del guest_list[0]
 del guest_list[0]
